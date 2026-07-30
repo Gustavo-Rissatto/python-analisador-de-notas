@@ -1,1 +1,11 @@
+nome = input ("Digite o nome do aluno:")
+nota01 = float(input ("Digite a nota 01:"))
+nota02 = float(input ("Digite a nota 02:"))
+nota03 = float(input ("Digite a nota 03:"))
 
+print ()
+print ("Nome do aluno:",nome)
+print ("nota 01:", nota01)
+print ("nota 02:", nota02)
+print ("nota 03:", nota03)
+print ("Media da nota", (nota01+nota02+nota03)/3)
